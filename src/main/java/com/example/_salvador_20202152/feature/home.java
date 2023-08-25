@@ -6,5 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/feature")
 public class home {
+        @RequestMapping(value = "/home")
+        public String comprar(){
+            return "comprar";
+        }
 
 }

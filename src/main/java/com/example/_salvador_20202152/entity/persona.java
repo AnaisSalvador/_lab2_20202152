@@ -10,6 +10,17 @@ public class persona {
    private String Seguros;
    private String Upgrade;
    private String centrodeayuda;
+
+   private String comprar;
+
+   public String getComprar() {
+      return comprar;
+   }
+
+   public void setComprar(String comprar) {
+      this.comprar = comprar;
+   }
+
    public void setNom(String nom) {
       this.nom = nom;
    }
